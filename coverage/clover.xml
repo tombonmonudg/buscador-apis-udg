@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1789665456010" clover="3.2.0">
+  <project timestamp="1789665456010" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="11" coveredelements="11" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+    <file name="filtros.js" path="C:\Users\tomas\OneDrive\Desktop\Octavo semestre\Tendencias en entornos de desarrollo de aplicaciones y servicios\Unidad 2\Actividad 2.1. Code Coverage (Cobertura de código)\Proyecto de prueba\filtros.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1.2 - Búsqueda y Filtrado de APIs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Buscador multipropósito de APIs</h1>
+    <p>Busca un usuario (ej. "Bret" o "Ervin") o un Pokémon (ej. "pikachu" o "charizard").</p>
+
+    <!-- Formulario de búsqueda agregado -->
+    <div class="search-container">
+        <form id="formulario-busqueda">
+            <input type="text" id="input-busqueda" placeholder="Ingresa un nombre para buscar..." required>
+            <button type="submit">Buscar resultados</button>
+        </form>
+    </div>
+
+    <div class="api-container">
+        <h2>1. Usuarios (Filtrado local con JavaScript)</h2>
+        <div id="resultado-api-1" class="tabla-contenedor">Cargando datos...</div>
+    </div>
+
+    <div class="api-container">
+        <h2>2. PokeAPI (Filtrado mediante petición a la API)</h2>
+        <div id="resultado-api-2" class="tabla-contenedor">Esperando búsqueda...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
